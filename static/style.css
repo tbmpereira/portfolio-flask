@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #456456;
+    overflow-y: auto;
+    width: 300px;
+    transition: all ease-in-out;
+    padding: 0 15px;
+    z-index: 9997;
+}
+
+#header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #d3dddc;
+    border-radius: 50%;
+
+}
+
+#header .profile h1 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+#header .profile .social-links a {
+    font-size: 1rem;
+    background: #d3dddc;
+    color:#fff;
+    padding: 0.6rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#header .profile .social-links a:hover {
+    background: #fdd16c;
+}
+
+.nav-menu {
+    padding: 1.5rem;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #c7b19d;
+    transition: 0.3s;
+    border-bottom: 2px solid #fdd16c;
+    padding-bottom: 0.5rem;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+    padding-right: 0.8rem;
+    font-size: 24px;
+    color: #fdd16c;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active,
+.nav-menu a.active:focus,
+.nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom-color: transparent;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
+    color: #d3dddc;
+}
+
+#main {
+    margin-left: 300px;
+}
+
+section#inicio {
+    background-image: url("./img/bannerPortfolio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section#inicio h2 {
+    font-size: 5rem;
+}
+
+section#inicio span#subtitle {
+    margin-right: 8rem;
+    font-size: 1.5rem;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 10px #d3dddc;
+}
+
+section#inicio div#arraste {
+    width: 9rem;
+}
+
+section#inicio div#arraste a {
+    color:#000000;
+    text-decoration: none;
+}
