@@ -39,17 +39,43 @@ html, body {
 }
 
 #header .profile .social-links a {
-    font-size: 1rem;
+    font-size: 1.5rem;
     background: #d3dddc;
-    color:#fff;
+    color: #456456;
     padding: 0.6rem;
     border-radius: 50%;
     transition: 0.3s;
     text-decoration: none;
+    display: inline-block;
+    position:relative
 }
 
 #header .profile .social-links a:hover {
     background: #fdd16c;
+}
+
+#header .profile .social-links a:hover::after {
+    content: attr(aria-label);
+    font-size: 0.8rem;
+    display: block;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+}
+
+#header .profile .social-links a i {
+    display: block;
+    width: 2rem; /* Largura fixa para todos os ícones */
+    height: 2rem; /* Altura fixa para todos os ícones */
+    line-height: 2rem; /* Centralizar o ícone verticalmente */
+    text-align: center;
+    border: 2px solid transparent; /* Adicionar border */
 }
 
 .nav-menu {
