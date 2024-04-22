@@ -23,7 +23,7 @@ O portfólio foi desenvolvido usando as seguintes tecnologias:
 
 - HTML
 - CSS
-- [Bootstrap>](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 - JavaScript
 - [Academicons](https://jpswalsh.github.io/academicons/)
