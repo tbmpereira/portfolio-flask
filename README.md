@@ -12,11 +12,10 @@ O portfólio inclui várias seções, como:
 
 - **Início**: Uma introdução sobre Marcelo Pereira e sua pesquisa.
 - **Sobre Mim**: Detalhes sobre sua formação acadêmica, experiência profissional e interesses de pesquisa.
-- **Projetos**: Uma lista de projetos de pesquisa e acadêmicos em que Marcelo está envolvido.
-- **Publicações**: Uma seção que destaca suas publicações acadêmicas e trabalhos apresentados em congressos.
 - **Habilidades**: Uma lista de habilidades e competências adquiridas ao longo de sua carreira acadêmica e profissional.
 - **Recursos**: Links para publicações, apresentações em congressos e outros materiais relevantes.
-- **Contato**: Informações de contato para entrar em contato com Marcelo Pereira.
+- **Links**: Redes de pesquisa que o autor participa.
+- **Contato**: Informações para entrar em contato com Marcelo Pereira.
 
 ## Tecnologias Utilizadas
 
@@ -24,13 +23,10 @@ O portfólio foi desenvolvido usando as seguintes tecnologias:
 
 - HTML
 - CSS
-- Bootstrap
-- Flask
+- [Bootstrap>](https://getbootstrap.com/)
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 - JavaScript
-
-## Como Contribuir
-
-Se você deseja contribuir para o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todas as contribuições são bem-vindas!
+- [Academicons](https://jpswalsh.github.io/academicons/)
 
 ## Autor
 
