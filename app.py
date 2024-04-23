@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = "tbmpereira"
 
 mail_settings = {
-    "MAIL_SERVER": 'live.smtp.mailtrap.io',
+    "MAIL_SERVER": 'smtp.mailgun.org',
     "MAIL_PORT": 587,
     "MAIL_USE_TLS": True,
     "MAIL_USE_SSL": False,
