@@ -33,6 +33,9 @@
                 <a target="_blank" aria-label = "ResearchGate" href="https://www.researchgate.net/profile/Marcelo-Pereira-44">
                     <i class="ai ai-researchgate"></i>
                 </a>
+                <a target="_blank" aria-label = "mapereira@ufmg.br" href="mailto:mapereira@ufmg.br">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
 
             </div>
         </section>
@@ -62,11 +65,6 @@
                         <a class="nav-link" href="#links">
                             <i class="bi bi-share"></i>Links</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contato">
-                            <i class="bi bi-envelope"></i>Contato</a>
-                      </li>
-
                   </ul>
 
             </nav>
@@ -404,51 +402,21 @@
                       </div>
             </div>
         </section>
-        <section id="contato" class="pt-5 pb-5 section-bg">
-            <div class="container mb-5">
-                <h2 class="pt-3 pb-3">Contato</h2>
-                <div class="row">
-                    <div class="col-md-5" data-anime="up">
-                        <div class="card p-5 shadow border-0">
-                            <div class="endereco">
-                                <h5><i class="bi bi-geo-alt"></i> Localização:</h5>
-                                <p>Belo Horizonte, MG</p>
-                            </div>
-                            <div class="email">
-                                <h5><i class="bi bi-envelope"></i> Email:</h5>
-                                <p>mapereira@ufmg.br</p>
-                            </div>
-                        </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.383915896523!2d-43.9669566241341!3d-19.866004381508066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690f50d7fd189%3A0xa5a3b1343512f43a!2sReitoria%20da%20UFMG!5e0!3m2!1spt-BR!2sbr!4v1713831838704!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
-                    </div>
-                    <div class="col-md-7 mt-5 mt-md-0" data-anime="right">
-                        <div class="card p-5 h-100 shadow border-0">
-                            <form class="row g-3"  action="/send" method = "POST">
-                                <div class="col-md-6"">
-                                  <label for="nome" class="form-label">Nome:</label>
-                                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
-                                </div>
-                                <div class="col-md-6">
-                                  <label for="email" class="form-label">Email:</label>
-                                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
-                                </div>
-                                <div class="col-12">
-                                  <label for="mensagem" class="form-label">Mensagem</label>
-                                  <textarea type="text" class="form-control" id="mensagem" name="mensagem" 
-                                  placeholder="Digite sua mensagem" rows=10>
-                                    </textarea>
-                                </div>
-                                <div class="col-12 d-flex justify-content-center mt-4">
-                                  <button type="submit" class="btn btn-outline-primary">Enviar</button>
-                                </div>
-                              </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
     </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class=""text-center>
+                <p>
+                    <span class="copyleft">&copy;</span> Copyleft <strong>Marcelo Pereira</strong> |
+                    <a href="mailto:mapereira@ufmg.br">mapereira@ufmg.br</a> |
+                    <span class="year">2024</span>
+                </p>
+            </div>
+        </div>
+
+    </footer>
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
 </body>

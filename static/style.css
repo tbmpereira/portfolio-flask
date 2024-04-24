@@ -291,3 +291,35 @@ i.menu-mobile {
     left: -9px;
     border-radius: 50%;
 }
+
+#footer {
+    background: #456456;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    transition: .3s;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: 300px;
+    text-decoration: none;
+}
+
+footer a{
+    color: #fdd16c;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    #footer {
+        position: static;
+        width: auto;
+        padding: 10px 10px;
+    }
+  }
+
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
